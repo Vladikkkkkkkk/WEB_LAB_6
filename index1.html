@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пивний магазин "Хміль" - Створення каруселі</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="left-text">
+                <h1>Пивний магазин "Хміль"</h1>
+            </div>
+            <div class="header-right-corner">
+                <p>
+                    Підтримайте локальні пивоварні разом з нами!
+                </p>
+            </div>
+        </header>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="./index2.html">Перегляд каруселі</a></li>
+            </ul>
+        </nav>
+        
+
+        <div class="main-content">
+            <h2>Додати слайди до каруселі</h2>
+            <form id="carouselForm">
+                <label for="slideContent">Введіть текст слайду:</label>
+                <input type="text" id="slideContent" name="slideContent" required>
+                <button type="button" id="addSlide">Додати слайд</button>
+                <button type="button" id="saveCarousel">Зберегти карусель</button>
+            </form>
+            <div id="carouselPreview">
+                <h3>Попередній перегляд</h3>
+                <div class="carousel">
+                    <!-- Динамічно додані слайди -->
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <span class="footer-left-corner">
+                <p>Адреса: вул. Пивна, 1, м. Львів, Україна</p>
+                <p>Телефон: +380 12 345 67 89</p>
+            </span>
+            <h2>Бережіть воду - пийте пиво!</h2>
+        </footer>
+    </div>
+
+</body>
+
+</html>
